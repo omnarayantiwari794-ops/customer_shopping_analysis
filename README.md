@@ -92,7 +92,3 @@ Techniques used: aggregation, `GROUP BY`/`HAVING`, subqueries, CTEs, `CASE WHEN`
 4. **Run the SQL queries** in `customer_shopping_sql.sql` against the `customer` table using pgAdmin, DBeaver, or `psql`.
 5. **Open the dashboard** `customer_shopping_bi.pbix` in Power BI Desktop. If the data source path breaks, update it via *Transform data → Data source settings*.
 
-## Notes
-
-- Do not commit real database passwords. Use environment variables instead, for example `os.environ["PG_PASSWORD"]`, and keep credentials out of the notebook before publishing.
-- Update the hardcoded local CSV path in the notebook so others can run it.
